@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Engenharia de Software - UnB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style_cursos.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--navbar-->
+    <div class="covid">
+      <img src="img/header-covid.jpg" class="d-block w-100" alt="...">
+    </div>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="inicial.html"><img src="img/logo.png" alt="Logo" width="200" height="32" class="d-inline-block align-text-top"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Graduação
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="aeroespacial.html">Engenharia Aeroespacial</a></li>
+                  <li><a class="dropdown-item" href="automotiva.html">Engenharia Automotiva</a></li>
+                  <li><a class="dropdown-item" href="eletronica.html">Engenharia Eletrônica</a></li>
+                  <li><a class="dropdown-item" href="energia.html">Engenharia de Energia</a></li>
+                  <li><a class="dropdown-item" href="software.html">Engenharia de Software</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pós-Graduação
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Engenharia Biomédica</a></li>
+                  <li><a class="dropdown-item" href="#">Engenharia Clínica</a></li>
+                  <li><a class="dropdown-item" href="#">Informática na Educação</a></li>
+                  <li><a class="dropdown-item" href="#">Integridade de Materiais</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Laboratórios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">CPL</a></li>
+                  <li><a class="dropdown-item" href="#">Fábrica de Software</a></li>
+                  <li><a class="dropdown-item" href="#">LabNVH</a></li>
+                  <li><a class="dropdown-item" href="#">LaTEd</a></li>
+                  <li><a class="dropdown-item" href="#">LAPPIS</a></li>
+                  <li><a class="dropdown-item" href="#">LART</a></li>
+                  <li><a class="dropdown-item" href="#">LEI</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Aprenda Mais
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="biblioteca.html">Biblioteca FGA</a></li>
+                  <li><a class="dropdown-item" href="educacao_tutorial.html">Educação Tutorial</a></li>
+                  <li><a class="dropdown-item" href="IC.html">Iniciação Científica</a></li>
+                  <li><a class="dropdown-item" href="#">Intercâmbio</a></li>
+                  <li><a class="dropdown-item" href="monitoria.html">Monitoria</a></li>
+                  <li><a class="dropdown-item" href="#">SOU FGA</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Notícias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Eventos e Oportunidades</a></li>
+                  <li><a class="dropdown-item" href="gama_noticias.html">Gama Notícias</a></li>
+                  <li><a class="dropdown-item" href="https://www.noticias.unb.br/">UnB Notícias</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Informações
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="contato_horario.html">Contatos e Horários</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control text-right me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <div class="search">
+                <button class="btn position-relative" type="submit"><img src="img/lupa.png" width="20rem" position="absolute"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--imagem curso-->
+      <div class="imagem-curso">
+        <img src="img/software.png" class="d-block w-100" alt="...">
+    </div>
+
+    <!--botoes rapidos-->
+    <div class="noticias text-center">
+          <a href="https://fga.unb.br/articles/0001/6972/2016_Engenharia_de_Software_Grade.pdf" class="btn btn-primary"><img src="img/fluxograma.png" width="25rem" padding="20rem"> Fluxograma</a>
+          <a href="https://orcestra.com.br/" class="btn btn-primary"><img src="img/empresa_junior.png" width="30rem" padding="20rem"> Empresa Júnior</a>
+          <a href="#" class="btn btn-primary"><img src="img/noticias.png" width="30rem" padding="20rem"> Notícias</a>
+          <a href="#" class="btn btn-primary"><img src="img/noticias.png" width="30rem" padding="20rem"> Oportunidades</a>
+        </div>
+
+    <!--texto curso-->
+    <div class="row w-100">
+        <div role="main m-3" class="col-md-8">
+            <div class="article-body article-body-text-article">
+              <span class="title" style="font-size:large font-weight 600px; text-align:right">O que é o Curso</span>
+              <p style="text-align: justify;">A Engenharia de Software é a integração dos princípios da Matemática e Ciência da Computação com as práticas da Engenharia, com objetivo de desenvolver modelos sistemáticos e técnicas confiáveis para a produção de software de alta qualidade.</p>
+              <p style="text-align: justify;">A formação em Engenharia de Software contempla fundamentos da Computação: que apoiam o projeto e construção de produtos de software; Fundamentos de Engenharia e Matemática; de funções a estruturas algébricas, de métodos empíricos e técnicas experimentais a engenharia econômica e gestão da produção (desde planejamento a execução e controle); Modelagem e análise de software: de fundamentos de modelagem a elicitação, análise, especificação e validação de requisitos; Projeto de software: de conceitos, a arquitetura, interface humano-computador, projeto detalhado, ferramentas e avaliação; Verificação e validação de software: de fundamentos de revisão e revisões, testes, análise e reporte de problemas; Evolução/manutenção: de processos a atividades de evolução/manutenção de software; Processos de software: de conceitos e cultura a padrões, processos e garantias de produto e processo de software; Gerenciamento de software: de conceitos de gerenciamento, planejamento, organização e controle de projeto a gerenciamento da configuração do software; Práticas profissionais: dinâmica de grupo, psicologia a competências conversacionais e profissionalismo.</p>
+              <span class="title" style="font-size:large font-weight 600px; text-align:right">Perfil Profissional</span>
+              <p style="text-align: justify;">O nosso Engenheiro de Software terá perfil generalista em software, sendo capaz de definir e aplicar uma abordagem sistemática, disciplinada e quantificável para a definição, desenvolvimento e manutenção de software, alinhado a legislação vigente e com uma visão humanística crítica sobre o impacto de sua atuação profissional na sociedade.</p>
+              <p style="text-align: justify;">O Engenheiro de Software deverá estar capacitado para conviver num contexto de mudanças sociais, tecnológicas e econômicas cada vez mais rápidas. Logo, busca-se também formar engenheiros para ocupar posições de destaque nesse cenário, com capacidade para trabalhar em equipes multidisciplinares, com base científica e de comunicação; motivado para capacitação e para a concepção de inovações; habilitado a projetar e gerir intervenções tecnológicas e empreendimentos; orientado para atuar como transformador social, visando o bem estar social e avaliando eticamente os impactos sociais e ambientais de suas intervenções.</p>
+              <span class="title" style="font-size:large font-weight 600px; text-align:right">Mercado de Trabalho</span>
+              <p style="text-align: justify;">O Engenheiro de Software se insere no mercado de empresas do setor privado, de instituições e órgãos da Administração Pública Direta, Indireta ou Entes Sociais Autônomos; Instituições de Pesquisa e desenvolvimento de soluções de engenharia de software.</p>
+              <h2 style="font-size: medium; color: #005D27; margin-left:3rem;">Área de atuação:</h2>
+              <p style="text-align: justify;">O Engenheiro de Software atua no projeto, desenvolvimento, implantação e evolução de softwares complexos e seguros, tolerantes a falhas e com usabilidade e acessibilidade. Em sua atuação, ele desenha, especifica, programa e experimenta soluções que atendam às necessiades do mercado, da sociedade, das organizações e dos indivíduos, de acordo com suas capacidades e limitações, considerando os impactos organizacionais, técnicos, sociais e emotivos.</p>
+              
+              <h2 style="font-size: medium; color: #005D27; margin-left:3rem;">Exemplos de área de atuação:</h2>
+                <ul style="margin-left:3rem;">
+                  <li style="text-align: justify;">Desenvolvimento de aplicativos para dispositivos móveis (<em>tablets e smartphones</em>);</li>
+                  <li style="text-align: justify;">Desenvolvimento e manutenção de software para as diversas áreas de conhecimento, podendo atuar em todas as atividades do ciclo de produção de um software;</li>
+                  <li style="text-align: justify;">Projeto de softwares críticos e tolerantes a falhas (sistemas bancários, softwares embarcados em sistemas aeroespaciais, sistemas médicos, biométricos, sistemas de informação [financeiros, recursos humanos, entre outros] e soluções / sistemas web [e-commerce, redes sociais, etc.]);</li>
+                  <li>Projeto e desenvolvimento de jogos eletrônicos e softwares educacionais.</li>
+              </ul>
+              <span class="title" style="font-size:large font-weight 600px; text-align:right">Conteúdo Complementar</span>
+              </div> 
+        
+            <!--informacoes gerais-->
+        </div>
+        <aside role="complementary" class="col-md-4">
+          <div class="card m-3" style="width: 25rem;border-radius: 1.5rem; border: 0.2rem solid; border-color: #005D27;">
+            <h1>Informações Gerais</h1>
+              <div class="card-body">
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Habilitação</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem; ">Bacharelado em Engenharia de Software</p>
+                
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Carga-horária total:</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem;">232 créditos (3.480 horas)</p>
+                
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Duração</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem;">5 anos</p>
+                
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Unidade Acadêmica</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem;">Faculdade UnB Gama</p>
+                
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Opção de Curso no Vestibular</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem; text-align: justify;">Engenharias.<br>(O estudante escolhe ao final do 2º semestre qual das engenharias deseja cursar).</p>
+
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Turno</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem;">Diurno</p>
+                
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Número de semestres</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem;">9 (mínimo) / 16 (máximo).</p>
+                
+                <h5 class="card-title" style="color: #005D27; margin-bottom: 0;">Coordenador</h5>
+                <p class="card-text" style="margin-top: 0; margin-left:2rem;">Coordenador: Ricardo Chaim<br>Contatos: ricardoc@unb.br / (61) 3107-8908</p>
+              </div>
+            </div>
+            
+            <h1 style="margin-left:1rem;width: 25rem;">Professores</h1>
+            <div class="accordion accordion-flush m-4 mt-0" style="width: 24rem;" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    André Barros de Sales
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">20</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    André Luiz Peron Martins Lanna
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">14</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Carla Rocha
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">17</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Cristiane Soares Ramos
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">14</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Edson Alves da Costa Junior
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">20</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                   Elaine Venson
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">21</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                   Fabiana Freitas Mendes
+                  </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">24</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEigth">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEigth" aria-expanded="false" aria-controls="flush-collapseEigth">
+                   Fabricio Braz
+                  </button>
+                </h2>
+                <div id="flush-collapseEigth" class="accordion-collapse collapse" aria-labelledby="flush-headingEigth" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">27</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingNine">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                   Fernando William Cruz
+                  </button>
+                </h2>
+                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">35</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                   George Marsicano Corrêa
+                  </button>
+                </h2>
+                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">21</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEleven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                   Giovanni Almeida Santos
+                  </button>
+                </h2>
+                <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">04</td><br>
+                  <a href="pagSoftwareGiovanni.html" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwelve">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                   Hilmer Rodrigues Neri
+                  </button>
+                </h2>
+                <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">02</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThirteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                   John Lenon Cardoso Gardenghi
+                  </button>
+                </h2>
+                <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">22</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFourteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                   Maurício Serrano
+                  </button>
+                </h2>
+                <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">27</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFifhteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifhteen" aria-expanded="false" aria-controls="flush-collapseFifhteen">
+                   Milene Serrano
+                  </button>
+                </h2>
+                <div id="flush-collapseFifhteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifhteen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">27</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSixteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+                   Nilton Correia da Silva
+                  </button>
+                </h2>
+                <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">27</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeventeen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeventeen" aria-expanded="false" aria-controls="flush-collapseSeventeen">
+                   Rejane Maria da Costa Figueiredo
+                  </button>
+                </h2>
+                <div id="flush-collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="flush-headingSeventeen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">14</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEighteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEighteen" aria-expanded="false" aria-controls="flush-collapseEighteen">
+                   Renato Coral Sampaio
+                  </button>
+                </h2>
+                <div id="flush-collapseEighteen" class="accordion-collapse collapse" aria-labelledby="flush-headingEighteen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">34</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwenty-5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty-5" aria-expanded="false" aria-controls="flush-collapseTwenty-5">
+                   Ricardo Ajax Dias Kosloski
+                  </button>
+                </h2>
+                <div id="flush-collapseTwenty-5" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty-5" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">21</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingNineteen">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNineteen" aria-expanded="false" aria-controls="flush-collapseNineteen">
+                   Ricardo Matos Chaim
+                  </button>
+                </h2>
+                <div id="flush-collapseNineteen" class="accordion-collapse collapse" aria-labelledby="flush-headingNineteen" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">02</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwenty">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty" aria-expanded="false" aria-controls="flush-collapseTwenty">
+                   Sérgio Antônio Andrade de Freitas
+                  </button>
+                </h2>
+                <div id="flush-collapseTwenty" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">04</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwenty-1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty-1" aria-expanded="false" aria-controls="flush-collapseTwenty-1">
+                   Tiago Alves
+                  </button>
+                </h2>
+                <div id="flush-collapseTwenty-1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty-1" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">31</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwenty-2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty-2" aria-expanded="false" aria-controls="flush-collapseTwenty-2">
+                   Vandor Roberto Vilardi Rissoli
+                  </button>
+                </h2>
+                <div id="flush-collapseTwenty-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty-2" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">04</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwenty-3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwenty-3" aria-expanded="false" aria-controls="flush-collapseTwenty-3">
+                   Wander Cleber
+                  </button>
+                </h2>
+                <div id="flush-collapseTwenty-3" class="accordion-collapse collapse" aria-labelledby="flush-headingTwenty-3" data-bs-parent="#accordionFlushExample">
+                  <h5 class="card-title" style="color: #005D27; margin-top:1rem; margin-left:2rem; margin-bottom: 0; font-size: medium;">Contato</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">contato_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Horário de Atendimento</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">horario_exemplo</td>
+
+                  <h5 class="card-title" style="color: #005D27; margin-bottom: 0; margin-left:2rem; font-size: medium;">Sala do UED</h5>
+                  <p class="card-text" style="margin-top: 0; margin-left:2rem;">21</td><br>
+                  <a href="#" class="stretched-link">Leia Mais</a></div>
+              </div>
+            </div>
+      </aside>
+    </div>
+
+    <!--footer-->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img src="img/logo_unb.png" width="40" height="35">
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Company</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contato</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Termos de Uso</a></li>
+        </ul>
+      </footer>
+      </footer>
+    </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
